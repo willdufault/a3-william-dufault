@@ -1,6 +1,6 @@
 Hex Mixer! (Will Dufault)
 
-# ADD DIGITAL OCEAN LINK
+https://a3-william-dufault.glitch.me/
 
 ---
 
@@ -70,24 +70,13 @@ Hex Mixer! (Will Dufault)
 
 ### Technical
 
-- My app is hosted on digital ocean
-
-
-
-
-# DESCRIBE MORE ABOUT THIS HERE AFTER DOING IT
-
-
-
-
-
 - My page gets 100% in all four lighthouse categories
 - localhost:
 
-![Alt text](lighthouse-localhost.png)
+![Alt text](https://cdn.glitch.global/3b42f41e-d360-456a-836d-8897d603aea6/d2fcc70d-d002-44c0-ab47-75f8286703ff.image.png?v=1695265573087)
 
-- digital ocean:
+- glitch:
 
-# INSERT SCREENSHOT HERE
+![Alt text](https://cdn.glitch.global/3b42f41e-d360-456a-836d-8897d603aea6/7ee58eae-c55d-422d-889e-d41698c1ec48.image.png?v=1695265530940)
 
-(only going for 95 points)
+(only going for 90 points)
