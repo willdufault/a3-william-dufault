@@ -1,6 +1,6 @@
 Hex Mixer! (Will Dufault)
 
-# ADD DIGITAL OCEAN LINK
+https://webware-a3-william-dufault-c9f752f71977.herokuapp.com/
 
 ---
 
@@ -70,17 +70,12 @@ Hex Mixer! (Will Dufault)
 
 ### Technical
 
-- My app is hosted on digital ocean
-
-
-
-
-# DESCRIBE MORE ABOUT THIS HERE AFTER DOING IT
-
-
-
-
-
+- My app is hosted on heroku
+	- The process of getting it up and running on heroku was pretty straightforward. Although, I did
+	  run into issues with it not being able to access my MongoDB database, so I just enabled quad
+	  zero access to the database because I don't know if heroku uses static ips or not for user 
+	  apps. I also ran into the issue of not setting a start script or node version in my 
+	  `package.json` file, which caused the app to fail to deploy at first.
 - My page gets 100% in all four lighthouse categories
 - localhost:
 
