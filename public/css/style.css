@@ -1,0 +1,56 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+form {
+	display: flex;
+	gap: 2rem;
+}	
+
+input {
+	width: 8rem;
+	/* display: flex; */
+	margin: 0;
+}
+
+tr, th, td {
+	text-align: center;
+}
+
+#app-wrapper {
+	display: none;
+}
+
+.center-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vertical-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.table-header {
+	display: flex;
+}
+
+.input-wrapper {
+	gap: 0.5rem;
+}
+
+.color-preview {
+	border: 0.1rem solid white;
+	background: white;
+	height: 2rem;
+	width: 2rem;
+}
+
+.mini-color-preview {
+	border: 0.1rem solid white;
+	background: white;
+	height: 1.5rem;
+	width: 1.5rem;
+}

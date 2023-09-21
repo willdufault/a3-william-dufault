@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+		<meta name='description' content='will dufaults cs4241 webware assignment 3 - persistence website'/>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'>
+    <link rel='stylesheet' href='./css/reset.css'/>
+    <link rel='stylesheet' href='./css/style.css'/>
+		<link rel='icon' type='image/png' href='./images/favicon.png'/>
+    <title>Will Dufault | CS4241 Assignment 3</title>
+  </head>
+  <body class='center-flex'>
+    <h1>Hex Color Mixer!</h1>
+		<br/>
+		<div id='log-in-wrapper'>
+			<form class='center-flex vertical-flex'>
+				<div class='input-wrapper center-flex'>
+					<label for='username'>Username:</label>
+					<textarea id='username' type='text' placeholder='textarea'></textarea>
+				</div>
+				<div class='input-wrapper center-flex'>
+					<label for='password'>Password:</label>
+					<input id='password' type='password' placeholder='password'/>
+				</div>
+			</form>
+			<br/>
+			<div class='button-wrapper'>
+				<button onclick='register()'>Register</button>
+				<button onclick='logIn()'>Log In</button>
+			</div>
+		</div>
+		<div id='app-wrapper' class='center-flex vertical-flex'>
+			<form class='center-flex'>
+				<div class='input-wrapper center-flex'>
+					<label for='color1'>Hex 1:</label>
+					<input id='color1' type='text' onkeyup='updateColorPreview("#color1", "#color1-preview")'
+						placeholder='text'/>
+					<div id='color1-preview' class='color-preview'></div>
+				</div>
+				<div class='input-wrapper center-flex'>
+					<label for='color2'>Hex 2:</label>
+					<input id='color2' type='text' onkeyup='updateColorPreview("#color2", "#color2-preview")'/>
+					<div id='color2-preview' class='color-preview'></div>
+				</div>
+				<div class='input-wrapper center-flex'>
+					<label for='color3'>Hex 3:</label>
+					<input id='color3' type='text' onkeyup='updateColorPreview("#color3", "#color3-preview")'/>
+					<div id='color3-preview' class='color-preview'></div>
+				</div>
+			</form>
+			<br/>
+			<div class='button-wrapper'>
+				<button onclick='submit()'>Submit</button>
+				<button onclick='window.open("https://www.google.com/search?q=color+picker", "_blank")'>Open Color Picker</button>
+			</div>
+			<br/>
+			<br/>
+			<h2 class='table-header'><p id='table-user'>&lt;user&gt;</p>'s data:</h2>
+			<br/>
+			<table id='data-table'>
+			</table>
+			<div class='button-wrapper'>
+				<button onclick='lighten()'>Lighten</button>
+				<button onclick='darken()'>Darken</button>
+				<button onclick='clearDatabase()'>Clear</button>
+				<button onclick='refresh()'>Refresh</button>
+				<button onclick='logOut()'>Log Out</button>
+			</div>
+		</div>
+    <script src='./js/main.js'></script>
+  </body>
+</html>
