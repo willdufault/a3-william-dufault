@@ -74,15 +74,15 @@ https://webware-a3-william-dufault-c9f752f71977.herokuapp.com/
 	- The process of getting it up and running on heroku was pretty straightforward. Although, I did
 	  run into issues with it not being able to access my MongoDB database, so I just enabled quad
 	  zero access to the database because I don't know if heroku uses static ips or not for user 
-	  apps. I also ran into the issue of not setting a start script or node version in my 
-	  `package.json` file, which caused the app to fail to deploy at first.
+	  apps. I also ran into the issue of not setting a start script in `package.json` and having to 
+	  set `port = process.env.PORT || 3000` in `server.js`.
 - My page gets 100% in all four lighthouse categories
 - localhost:
 
 ![Alt text](lighthouse-localhost.png)
 
-- digital ocean:
+- heroku:
 
-# INSERT SCREENSHOT HERE
+![Alt text](lighthouse-heroku.png)
 
-(only going for 95 points)
+(only going for 90 points)
