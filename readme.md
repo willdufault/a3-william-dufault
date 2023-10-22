@@ -1,7 +1,5 @@
 Hex Mixer! (Will Dufault)
 
-https://webware-a3-william-dufault-c9f752f71977.herokuapp.com/
-
 ---
 
 # Basic Requirements
