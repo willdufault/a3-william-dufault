@@ -82,5 +82,3 @@ Hex Mixer! (Will Dufault)
 - heroku:
 
 ![Alt text](lighthouse-heroku.png)
-
-(only going for 90 points)
